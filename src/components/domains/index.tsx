@@ -1,0 +1,9 @@
+export { default as AiDevelopment } from './development-page/AiDevelopment';
+export { default as ApplicationDevelopment } from './development-page/ApplicationDevelopment';
+export { default as SoftwareDevelopment } from './development-page/SoftwareDevelopment';
+export { default as systemDevelopment } from './development-page/SystemDevelopment';
+export { default as webDevelopment } from './development-page/WebDevelopment';
+export { default as Industries } from './Header-page/Industries';
+export { default as Contact } from './Header-page/Contact';
+export { default as AboutUs } from './Header-page/AboutUs';
+export { default as Solution } from './Header-page/Solution';

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
-import React from 'react';
+
 import { CiUser } from 'react-icons/ci';
 import { BsHeadset } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
@@ -21,7 +21,6 @@ function Header() {
             <Link to="/">
               <li>Services</li>
             </Link>
-
             <Link to="/solution">
               <li>Solution</li>
             </Link>
@@ -30,11 +29,11 @@ function Header() {
               <li>Industries</li>
             </Link>
 
-            <Link to="/aboutus">
+            <Link to="/about">
               <li>About Us</li>
             </Link>
 
-            <Link to="/contactus">
+            <Link to="/contact">
               <li>Contact Us</li>
             </Link>
           </ul>

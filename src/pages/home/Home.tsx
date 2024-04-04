@@ -1,16 +1,12 @@
-// import React from 'react';
-// import Animate from '../../components/domains/Animate';
-// import MainLayout from '../../layouts/MainLayout/MainLayout';
+// import NavBarContent from '../NavbarPage/NavBarContent';
 
-// import Navbar from '../../components/shared/Navbar';
+import WebDevelopment from '../../components/domains/development-page/WebDevelopment';
 
 export function Home() {
   return (
     <section>
       <div className="">
-        njn
-        {/* <Navbar /> */}
-        {/* <Animate /> */}
+        <WebDevelopment />
       </div>
     </section>
   );
