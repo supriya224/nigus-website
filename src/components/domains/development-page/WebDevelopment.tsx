@@ -3,7 +3,7 @@ import React from 'react';
 
 function WebDevelopment() {
   return (
-    <section className="container mx-auto w-auto h-fit">
+    <section className="container mx-auto w-auto font-customFont ">
       {/* front page is here */}
       <div className="flex justify-between mt-12 w-full items-center">
         <div className="mt-32 mr-32 w-1/2">
@@ -25,56 +25,100 @@ function WebDevelopment() {
         </div>
       </div>
       {/* client slider page */}
-      <div className="bg-blue-900">
-        <h4 className="text-white">Our clients</h4>
-        {/* <Slider /> */}
-      </div>
-      {/* <div>
-        <div>
-          Future-Ready Solutions: Transforming Your Business With Innovative
-          Software Integrate any business application with new or existing
-          systems
-        </div>
-        <div>Our Clients</div>
-        <div>Our services are designed to h</div>
-      </div> */}
       <div>
-        <h3>
-          Future-Ready Solutions: Transforming Your Business With Innovative
-          Software Integrate any business application with new or existing
-          systems
+        <h4 className="text-center text-3xl">Our clients</h4>
+        <div className="bg-neutral-100">
+          <div className="flex">
+            <img src="http://www.nigussystems.com/images/slider1.png" alt="" />
+            {/* <img src="http://www.nigussystems.com/images/slider2.png" alt="" />
+          <img
+            src="http://www.nigussystems.com/images/slider1.png"
+            alt=""
+          />d{' '} */}
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 className="text-4xl text-center font-bold">
+          Innovative IT Solutions
         </h3>
-        <div className="flex flex-wrap justify-center gap-20">
-          <img src="http://www.nigussystems.com/images/apps.png" alt="" />
-          <img
-            src="http://www.nigussystems.com/images/crm%20integration.png"
-            alt=""
-          />
-          <img
-            src="http://www.nigussystems.com/images/unified%20communications.png"
-            alt=""
-          />
-          <img
-            src="http://www.nigussystems.com/images/application-integration.png"
-            alt=""
-          />
-          <img
-            src="http://www.nigussystems.com/images/call-center-solutions.png"
-            alt=""
-          />
-          <img
-            src="http://www.nigussystems.com/images/crm%20integration.png"
-            alt=""
-          />
-          <img
-            src="http://www.nigussystems.com/images/web-conferencing.png"
-            alt=""
-          />{' '}
+        <p className="text-xl">
+          Utilize our software development expertise to seamlessly integrate
+          business applications with new or existing systems, ensuring
+          streamlined operations and enhanced efficiency.
+        </p>
+        <div className="flex flex-wrap justify-center gap-5 my-9">
+          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
+            <img
+              src="http://www.nigussystems.com/images/apps.png"
+              alt=""
+              width={100}
+            />
+
+            <h3>Web Development</h3>
+          </div>
+          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
+            <img
+              src="http://www.nigussystems.com/images/reliablity.png"
+              alt=""
+              width={100}
+              className="flex justify-center"
+            />
+            <h3>Application Development</h3>
+          </div>
+          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
+            <img
+              src="http://www.nigussystems.com/images/unified%20communications.png"
+              alt=""
+              width={100}
+              className="flex justify-center"
+            />
+            <h3>Software Development</h3>
+          </div>
+          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
+            <img
+              src="http://www.nigussystems.com/images/application-integration.png"
+              alt=""
+              width={100}
+              className="flex justify-center"
+            />
+            <h3>AI/ML Development</h3>
+          </div>
+          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
+            {' '}
+            <img
+              src="http://www.nigussystems.com/images/call-center-solutions.png"
+              alt=""
+              width={100}
+              className="flex justify-center"
+            />{' '}
+            <h3>System Integration</h3>
+          </div>
+          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
+            {' '}
+            <img
+              src="http://www.nigussystems.com/images/crm%20integration.png"
+              alt=""
+              width={100}
+              className="flex justify-center"
+            />
+            <h3>CRM Integration</h3>
+          </div>
+          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
+            <img
+              src="http://www.nigussystems.com/images/web-conferencing.png"
+              alt=""
+              width={100}
+              className="flex justify-center"
+            />
+            <h3>Application Integration</h3>
+          </div>
         </div>
       </div>
       <div>
-        <div className="flex justify-between mt-12 w-full items-center">
-          <div className="mt-32 mr-32 w-1/2">
+        <div className="flex justify-between mt-5 w-full items-center font-customFont">
+          <div className="mt-5 mr-32 w-1/2">
             <h2 className="">
               Our services are designed to help businesses establish a robust
               online presence in the digital age. We empower our clients to

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
@@ -5,11 +6,17 @@
 import { CiUser } from 'react-icons/ci';
 import { BsHeadset } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { Menu, X } from 'lucide-react';
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <header className="w-full border-b">
-      <div className="container mx-auto w-auto flex justify-between ">
+      <div className="hidden container mx-auto w-auto md:flex justify-between ">
         <div className="flex gap-9 items-center">
           <img
             className=""
@@ -55,6 +62,11 @@ function Header() {
             Support
           </button>
         </div>
+      </div>
+      <div className="md:hidden">
+        <button type="button" onClick={toggleNavbar}>
+          {isOpen ? <X /> : <Menu />}
+        </button>
       </div>
     </header>
   );
