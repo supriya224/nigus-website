@@ -15,16 +15,70 @@ function Header() {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="w-full border-b">
-      <div className="hidden container mx-auto w-auto md:flex justify-between ">
-        <div className="flex gap-9 items-center">
+    <>
+      <header className="w-full border-b">
+        <div className="hidden container mx-auto w-auto md:flex justify-between ">
+          <div className="flex gap-9 items-center">
+            <img
+              className=""
+              width={100}
+              height={100}
+              src="http://www.nigussystems.com/images/nigus-logo.png"
+            />
+            <ul className="flex justify-between gap-7 text-base font-extrabold">
+              <Link to="/">
+                <li>Services</li>
+              </Link>
+              <Link to="/solution">
+                <li>Solution</li>
+              </Link>
+
+              <Link to="/industries">
+                <li>Industries</li>
+              </Link>
+
+              <Link to="/about">
+                <li>About Us</li>
+              </Link>
+
+              <Link to="/contact">
+                <li>Contact Us</li>
+              </Link>
+            </ul>
+            <h3>sales@nigussystems.com</h3>
+            <p>+91 98806 98312</p>
+
+            <button
+              type="button"
+              className="flex items-center text-white gap-2 bg-cyan-400 text-sm"
+            >
+              <CiUser />
+              Sales
+            </button>
+            <button
+              type="button"
+              className="flex items-center text-white gap-2 bg-cyan-400 text-sm"
+            >
+              <BsHeadset />
+              Support
+            </button>
+          </div>
+        </div>
+        <div className="md:hidden container mx-6 my-6">
+          <button type="button" onClick={toggleNavbar}>
+            {isOpen ? <X /> : <Menu />}
+          </button>
+        </div>
+      </header>
+      {isOpen && (
+        <div className="w-full bg-gray-400 gap-9 items-center">
           <img
             className=""
             width={100}
             height={100}
             src="http://www.nigussystems.com/images/nigus-logo.png"
           />
-          <ul className="flex justify-between gap-7 text-base font-extrabold">
+          <ul className=" text-base font-extrabold">
             <Link to="/">
               <li>Services</li>
             </Link>
@@ -62,13 +116,8 @@ function Header() {
             Support
           </button>
         </div>
-      </div>
-      <div className="md:hidden">
-        <button type="button" onClick={toggleNavbar}>
-          {isOpen ? <X /> : <Menu />}
-        </button>
-      </div>
-    </header>
+      )}
+    </>
   );
 }
 

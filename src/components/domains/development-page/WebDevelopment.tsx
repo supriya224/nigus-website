@@ -1,4 +1,6 @@
 import React from 'react';
+import Slider from '../../core/slider/Slider';
+import Flip from '../../core/Flip';
 // import Slider from '../../core/slider/Slider';
 
 function WebDevelopment() {
@@ -25,17 +27,11 @@ function WebDevelopment() {
         </div>
       </div>
       {/* client slider page */}
+
       <div>
         <h4 className="text-center text-3xl">Our clients</h4>
-        <div className="bg-neutral-100">
-          <div className="flex">
-            <img src="http://www.nigussystems.com/images/slider1.png" alt="" />
-            {/* <img src="http://www.nigussystems.com/images/slider2.png" alt="" />
-          <img
-            src="http://www.nigussystems.com/images/slider1.png"
-            alt=""
-          />d{' '} */}
-          </div>
+        <div>
+          <Slider />
         </div>
       </div>
 
@@ -143,6 +139,7 @@ function WebDevelopment() {
           </div>
         </div>
       </div>
+      <Flip />
     </section>
   );
 }
