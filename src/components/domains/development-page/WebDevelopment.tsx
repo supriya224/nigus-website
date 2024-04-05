@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from '../../core/slider/Slider';
 import Flip from '../../core/Flip';
+import Software from '../../core/ReuseComponent/Software';
 // import Slider from '../../core/slider/Slider';
 
 function WebDevelopment() {
@@ -35,7 +36,7 @@ function WebDevelopment() {
         </div>
       </div>
 
-      <div>
+      <div className="[perspective:1000px]">
         <h3 className="text-4xl text-center font-bold">
           Innovative IT Solutions
         </h3>
@@ -61,7 +62,7 @@ function WebDevelopment() {
               width={100}
               className="flex justify-center"
             />
-            <h3>Application Development</h3>
+            <h3 className="">Application Development</h3>
           </div>
           <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
             <img
@@ -140,6 +141,7 @@ function WebDevelopment() {
         </div>
       </div>
       <Flip />
+      <Software />
     </section>
   );
 }
