@@ -3,13 +3,13 @@ import React from 'react';
 function About() {
   return (
     <section>
-      <section className="container mx-auto w-auto">
-        <section className="mx-24 my-4 font-customFont ">
+      <section className="container mx-auto w-auto ">
+        <section className="mx-auto my-4 font-customFont ">
           {/* Montserrat", serif */}
-          <h3 className="my-9 text-4xl text-gray-500 text-center font-extrabold">
+          <h3 className="px-9 my-5 text-4xl text-gray-500 text-center font-extrabold">
             About us
           </h3>
-          <p className="leading-9 text-xl justify-center text-gray-400">
+          <p className="leading-9 px-5 my-5 text-center text-xl  text-gray-400">
             At Nigus Systems, we are passionate about leveraging cutting-edge
             technologies to create innovative solutions that drive business
             success. With a focus on excellence and customer satisfaction, our
@@ -18,20 +18,20 @@ function About() {
             experience the difference of reliable, scalable, and future-ready
             solutions.
           </p>
-
-          <div className="flex justify-between gap-9">
-            <div className="mx-20 my-9">
-              <div className="w-fit rounded-xl shadow-lg shadow-gray-400">
+          {/* grid component */}
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-9">
+            <div className="mx-12 xl:mx-32 my-1 ">
+              <div className="w-fit flex justify-center rounded-xl shadow-lg shadow-gray-400">
                 <img
                   src="http://www.nigussystems.com/images/versatality-features.png"
                   alt=""
-                  className="rounded-xl"
+                  className="rounded-xl w-fit"
                 />
               </div>
-              <h3 className="text-xl space-x-9 font-medium  my-2">
+              <h3 className="text-xl font-medium  my-2">
                 Customer-Centric Solutions
               </h3>
-              <p className="leading-8 text-lg">
+              <p className="leading-9 text-lg ">
                 {' '}
                 Experience an intuitive and user-friendly interface tailored to
                 meet the needs of your team. Our software prioritizes a seamless
@@ -39,16 +39,16 @@ function About() {
                 productivity.
               </p>
             </div>
-            <div>
-              <div className="w-fit rounded-xl shadow-lg shadow-gray-400  my-2">
+            <div className="mx-12 xl:mx-32 my-1 ">
+              <div className="w-fit flex justify-center rounded-xl shadow-lg shadow-gray-400  my-2">
                 <img
                   src="http://www.nigussystems.com/images/simple-conference-calls.png"
                   alt=""
-                  className="rounded-xl"
+                  className="rounded-xl w-full"
                 />
               </div>
 
-              <h3 className="text-xl space-x-9 font-medium">
+              <h3 className="text-xl  font-medium">
                 Scalability and Flexibility
               </h3>
               <p className="leading-8 text-lg">
@@ -58,30 +58,29 @@ function About() {
                 requirements change.
               </p>
             </div>
-          </div>
 
-          <div className="flex justify-between gap-9">
-            <div className="mx-20 my-9">
-              <div className="w-fit rounded-xl shadow-lg shadow-gray-400">
+            <div className="mx-12 xl:mx-32 my-1 ">
+              <div className="w-fit  flex justify-center rounded-xl shadow-lg shadow-gray-400">
                 <img
                   src="http://www.nigussystems.com/images/service-mobility.png"
                   alt=""
                   className="rounded-xl"
                 />
               </div>
-
-              <h3 className="text-xl space-x-9 font-medium  my-2">
+              <h3 className="text-xl font-medium  my-2">
                 Innovative Technology
               </h3>
-              <p className="leading-8 text-lg">
+              <p className="leading-9 text-lg ">
+                {' '}
                 Embrace cutting-edge technology with our software solutions,
                 ensuring your business stays ahead in an ever-evolving digital
                 landscape. Benefit from features designed to enhance efficiency
                 and adaptability.
               </p>
             </div>
-            <div>
-              <div className="w-fit rounded-xl shadow-lg shadow-gray-400">
+
+            <div className="mx-12 xl:mx-32 my-1 ">
+              <div className=" w-fit flex justify-center rounded-xl shadow-lg shadow-gray-900">
                 <img
                   src="http://www.nigussystems.com/images/reliablity.png"
                   alt=""

@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Software() {
   return (
     <section className="container mx-auto w-auto my-12">

@@ -3,10 +3,10 @@ import React from 'react';
 function Industries() {
   return (
     <section>
-      <section className="container mx-auto w-auto mt-9">
-        <div className="flex justify-between gap-9 mx-24 font-customFont">
-          <div className="flex justify-between  ">
-            <div className="w-1/2">
+      <section className="container mx-auto w-auto ">
+        <div className="gap-9 mx-auto font-customFont">
+          <div className="mb-3 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 ">
+            <div className=" mx-8">
               <h2 className="text-2xl font-bold">Industries</h2>
               <p className="leading-9 my-5 text-lg">
                 At Nigus Systems, we are dedicated to developing cutting-edge
@@ -47,12 +47,11 @@ function Industries() {
                 </ul>
               </p>
             </div>
-            <div className="">
+            <div className=" ">
               <img
-                width={500}
-                height={100}
                 src="http://www.nigussystems.com/images/importance-cust-relationship.png"
                 alt=""
+                className="w-full"
               />
             </div>
           </div>

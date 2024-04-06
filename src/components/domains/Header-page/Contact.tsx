@@ -5,18 +5,21 @@ import { FaHeadphones } from 'react-icons/fa';
 
 function Contact() {
   return (
-    <section className="container mx-52 w-auto my-9">
-      <h3 className="text-3xl font-extrabold text-gray-700 text-center my-9">
+    <section className="container mx-auto  w-auto ">
+      <h3 className="text-4xl font-extrabold text-gray-900 text-center xl:my-9 ">
         Contact US
       </h3>
-      <div className="flex justify-between gap-20  w-full ">
+      <div className="grid grid-cols-1 sm:px-32 lg:grid-cols-2 xl:my-9 xl:grid-cols-3 w-full ">
         {/* first section */}
-        <div className=" w-1/3 leading-9 text-xl text-center">
+        <div className=" leading-9 text-xl text-center">
           <div>
             <p className="flex justify-center">
               <HiOutlineBuildingOffice size={50} className="text-blue-500" />
             </p>
-            <h3 className="text-3xl my-5"> Office locations</h3>
+            <h3 className="text-xl font-extrabold  text-center">
+              {' '}
+              Office locations
+            </h3>
             <p className="text-gray-600 font-extrabold  text-lg">
               Bangalore , India
             </p>
@@ -39,7 +42,7 @@ function Contact() {
           </div>
         </div>
         {/* second section */}
-        <div className=" w-1/3 text-lg">
+        <div className="  text-center leading-9 font-bold">
           <p className="  flex justify-center">
             <MdOutlineLocalPostOffice
               size={50}
@@ -70,7 +73,7 @@ function Contact() {
         </div>
         {/*  &#10003;/}
         {/* third section */}
-        <div className=" w-1/3 text-center leading-9 font-bold">
+        <div className="  text-center leading-9 font-bold">
           <p className="  flex justify-center">
             <FaHeadphones size={50} className="text-blue-600" />
           </p>

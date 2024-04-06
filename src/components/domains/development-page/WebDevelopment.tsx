@@ -3,7 +3,7 @@ import Slider from '../../core/slider/Slider';
 
 function WebDevelopment() {
   return (
-    <section className="container mx-auto w-auto font-customFont ">
+    <section className="container mx-auto w-auto font-customFont bg-orange-200 sm:bg-red-500 md:bg-purple-900 lg:bg-yellow-400 xl:bg-blue-900 ">
       {/* front page is here */}
       <div className="flex justify-between mt-12 w-full items-center">
         <div className="mt-32 mr-32 w-1/2">
@@ -110,6 +110,7 @@ function WebDevelopment() {
           </div>
         </div>
       </div>
+      {/* last items */}
       <div>
         <div className="flex justify-between mt-5 w-full items-center font-customFont">
           <div className="mt-5 mr-32 w-1/2">
