@@ -1,8 +1,5 @@
 import React from 'react';
 import Slider from '../../core/slider/Slider';
-import Flip from '../../core/Flip';
-import Software from '../../core/ReuseComponent/Software';
-// import Slider from '../../core/slider/Slider';
 
 function WebDevelopment() {
   return (
@@ -140,8 +137,8 @@ function WebDevelopment() {
           </div>
         </div>
       </div>
-      <Flip />
-      <Software />
+      {/* <Flip />
+      <Software /> */}
     </section>
   );
 }

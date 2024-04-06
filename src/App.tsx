@@ -4,7 +4,8 @@ import CONSTANT from './utils/constants/index';
 // import Header from './components/shared/header/Header';
 import { Home } from './pages/home/Home';
 import Header from './components/shared/header/Header';
-import Navbar from './components/shared/Navbar';
+// import Header from './components/core/Header';
+// import Navbar from './components/shared/Navbar';
 import Footer from './components/shared/footer/Footer';
 import WebDevelopment from './components/domains/development-page/WebDevelopment';
 import {
@@ -24,8 +25,9 @@ function App() {
   return (
     <div className="">
       <BrowserRouter>
+        {/* <Header /> */}
         <Header />
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           {/* headerpage import here */}
