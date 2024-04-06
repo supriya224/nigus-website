@@ -2,11 +2,11 @@ function Collaboration() {
   return (
     <section>
       <section className="container mx-auto w-auto font-customFont">
-        <h2 className="text-xl my-3 font-semibold text-gray-500">
+        <h2 className="text-2xl my-3 px-5 font-semibold text-gray-500">
           Effortless Collaboration, Elevate with System Integrations
         </h2>
 
-        <div className="flex justify-between w-full">
+        <div className="w-full px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <div>
             <img
               width={600}
@@ -15,18 +15,18 @@ function Collaboration() {
               alt=""
             />
           </div>
-          <div className=" w-1/2">
-            <p className="text-lg">
-              <span className="text-xl font-bold">
+          <div className=" ">
+            <p className="">
+              <span className="text-lg font-bold">
                 System Integration Services:
               </span>{' '}
               We offer a comprehensive suite of system integration services
               designed to optimize your business processes, improve efficiency,
               and drive growth.
             </p>
-            <p className="text-lg">
+            <p className="">
               {' '}
-              <span className="text-xl font-bold">3CX Integration</span> : As a
+              <span className="text-lg font-bold">3CX Integration</span> : As a
               leading provider of communication solutions, 3CX enables
               organizations to unify their communication channels, including
               voice, video, chat, and conferencing, into a single platform. We
@@ -35,9 +35,9 @@ function Collaboration() {
               to enhance collaboration, streamline communications, and improve
               customer interactions.
             </p>
-            <p className="text-lg">
+            <p className="">
               {' '}
-              <span className="text-xl font-bold">CRM Integration:</span>{' '}
+              <span className="text-lg font-bold">CRM Integration:</span>{' '}
               Customer Relationship Management (CRM) systems play a vital role
               in managing customer interactions, sales processes, and marketing
               campaigns. We specialize in integrating CRM platforms like
@@ -46,8 +46,8 @@ function Collaboration() {
               lead management, track sales activities, and deliver personalized
               customer experiences.
             </p>
-            <p className="text-lg">
-              <span className="text-xl font-bold">
+            <p className="">
+              <span className="text-lg font-bold">
                 Customer Support Integration:
               </span>{' '}
               Efficient customer support is essential for retaining customers
@@ -57,18 +57,18 @@ function Collaboration() {
               automate responses, track customer interactions, and deliver
               timely support solutions.
             </p>
-            <p className="text-lg">
+            <p className="">
               {' '}
-              <span className="text-xl font-bold">
+              <span className="text-lg font-bold">
                 Enterprise Software Integration:
               </span>{' '}
               Modern businesses rely on a variety of enterprise software
               applications for functions such as accounting, HR management,
               inventory control, and supply chain management.
             </p>
-            <p className="text-lg">
+            <p className="">
               {' '}
-              <span className="text-xl font-bold">
+              <span className="text-lg font-bold">
                 Custom Integration Solutions:
               </span>{' '}
               Every business is unique, and we understand that your integration

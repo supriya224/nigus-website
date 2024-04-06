@@ -1,15 +1,16 @@
+import { FaCheckCircle } from 'react-icons/fa';
 import Software from '../../core/ReuseComponent/Software';
 
 function SoftwareDevelopment() {
   return (
-    <section>
+    <section className=" font-customFont">
       <section className="container mx-auto w-auto">
-        <div className="flex justify-between mt-12 w-full items-center">
-          <div className=" mr-32 w-1/2">
-            <h2 className="text-5xl font-extrabold">
+        <div className="px-5 mt-5 pb-4 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center">
+          <div className="">
+            <h2 className="text-2xl xl:text-5xl font-extrabold">
               Software Excellence, Elevating Businesses to new heights
             </h2>
-            <p className="leading-9 my-5 text-lg">
+            <p className="leading-9 text-lg">
               Seamlessly connect software, systems, and applications for
               optimized performance, propelling businesses to unparalleled
               success. Experience the transformative power of unified
@@ -29,8 +30,8 @@ function SoftwareDevelopment() {
       </section>
       <Software />
       <section className="container mx-auto w-auto">
-        <div className="flex justify-between mt-12 w-full">
-          <div className="flex justify-center items-center text-center  w-1/2">
+        <div className="px-5 mt-5 pb-4 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center">
+          <div className="flex justify-center items-center text-center">
             <img
               width={200}
               height={100}
@@ -38,10 +39,13 @@ function SoftwareDevelopment() {
               alt=""
             />
           </div>
-          <div className=" mr-32 w-1/2">
+          <div className="">
             <p className="leading-2 my-5 text-lg">
-              <span className="text-xl font-semibold">
-                {' '}
+              <span className="text-xl font-semibold flex">
+                <FaCheckCircle
+                  className="text-cyan-400 text-center"
+                  size={20}
+                />
                 Custom Software Solutions:
               </span>
               Every business is unique, and so are its software needs. We
@@ -50,8 +54,11 @@ function SoftwareDevelopment() {
               objectives.
             </p>
             <p className="leading-2 my-5 text-lg">
-              <span className="text-xl font-semibold">
-                {' '}
+              <span className="text-xl font-semibold flex">
+                <FaCheckCircle
+                  className="text-cyan-400 text-center"
+                  size={20}
+                />
                 Technology Expertise:
               </span>
               Our team of experienced developers, architects, and engineers are

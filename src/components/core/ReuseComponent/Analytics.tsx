@@ -3,7 +3,7 @@ import React from 'react';
 function Analytics() {
   return (
     <section className="container mx-auto w-auto">
-      <div className="flex justify-between gap-9 my-9 text-center mx-32">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 my-9 px-5 text-center font-customFont">
         <div className=" items-center">
           <div className=" flex justify-center">
             <img
@@ -14,7 +14,7 @@ function Analytics() {
             />
           </div>
           <div>
-            <h3 className="text-xl">Analytics</h3>
+            <h3 className="text-xl font-bold">Analytics</h3>
             <p>
               Elevate performance through cutting-edge IT system analytics,
               providing deep insights for strategic decision-making and business
@@ -33,7 +33,7 @@ function Analytics() {
             />
           </div>
           <div>
-            <h3>Application Integrations</h3>
+            <h3 className="text-xl font-bold">Application Integrations</h3>
             <p>
               Seamlessly connect and enhance your applications for optimized
               performance and streamlined operations through our expert
@@ -52,7 +52,7 @@ function Analytics() {
             />
           </div>
           <div>
-            <h3>Installation & Support</h3>
+            <h3 className="text-xl font-bold">Installation & Support</h3>
             <p>
               Efficient installation and unwavering support tailored to ensure
               seamless functionality, providing a foundation for uninterrupted

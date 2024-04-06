@@ -5,7 +5,7 @@ function Solution() {
   return (
     <section>
       <section className="container mx-auto w-auto font-customFont ">
-        <h2 className="text-xl my-3 text-center sm:text-left md:text-left font-semibold text-gray-500">
+        <h2 className="text-2xl mt-9 mb-6 text-center sm:text-left md:text-left font-semibold text-gray-700">
           Comprehensive IT Solutions for Modern Businesses
         </h2>
 
@@ -14,11 +14,11 @@ function Solution() {
             <img
               src="http://www.nigussystems.com/images/client-interaction.png"
               alt=""
-              className="w-fit h-fit "
+              className="w-fit h-fit"
             />
           </div>
           <div className="mx-5">
-            <p className="text-lg">
+            <p className="text-lg leading-8">
               In the fast-paced digital era, businesses across industries are
               embracing technology to streamline operations, enhance
               productivity, and drive growth. We specialize in delivering
@@ -31,7 +31,7 @@ function Solution() {
             </p>
 
             <h3 className="text-xl font-bold my-3">Enterprise Software</h3>
-            <p className="text-lg mt-3">
+            <p className="text-lg leading-8 mt-3">
               As a Our Enterprise Software solutions is designed to address
               specific industry challenges and requirements across various
               sectors, including manufacturing, retail, healthcare, finance, and
@@ -45,7 +45,7 @@ function Solution() {
         </div>
 
         <section>
-          <h3 className="text-4xl font-bold text-center my-16">
+          <h3 className="text-2xl xl:text-4xl px-5 font-bold text-center my-16">
             Empower the Business with Next-Gen Solutions
           </h3>
           <div className="mx-5 gap-9  grid grid-cols-1 lg:grid-cols-2 ">
@@ -78,7 +78,7 @@ function Solution() {
               <h3 className="font-bold text-lg">
                 Enterprise Resource Planning (ERP) Solutions
               </h3>
-              <p>
+              <p className="leading-7">
                 Our Enterprise Resource Planning (ERP) solutions are designed to
                 centralize and automate core business processes, providing
                 organizations with a unified platform to manage their
@@ -92,7 +92,7 @@ function Solution() {
               <h3 className="font-bold text-lg">
                 Customer Relationship Management (CRM) Systems
               </h3>
-              <p>
+              <p className="leading-7">
                 A seamless customer experience is essential for business
                 success, and our Customer Relationship Management (CRM) systems
                 are built to help organizations deliver exceptional customer
@@ -103,7 +103,7 @@ function Solution() {
                 customer data, and nurture long-lasting relationships.
               </p>
               <h3 className="font-bold text-lg">IT Management Software</h3>
-              <p>
+              <p className="leading-7">
                 In today's digital era, managing IT infrastructure effectively
                 is critical for business continuity, security, and performance.
                 Our IT Management Software provides comprehensive tools and
@@ -117,7 +117,7 @@ function Solution() {
               <h3 className="font-bold text-lg">
                 Human Resource Management (HRM) Software
               </h3>
-              <p>
+              <p className="leading-7">
                 Managing human capital efficiently is vital for organizational
                 success, and our Human Resource Management (HRM) software
                 simplifies HR processes, enhances employee engagement, and
@@ -131,7 +131,7 @@ function Solution() {
               <h3 className="font-bold text-lg">
                 Operations Management Software
               </h3>
-              <p>
+              <p className="leading-7">
                 Optimizing operational efficiency and resource utilization is
                 key to driving profitability, and our Operations Management
                 Software helps businesses achieve operational excellence across
@@ -144,7 +144,7 @@ function Solution() {
               <h3 className="font-bold text-lg">
                 Collaboration and Communication Tools
               </h3>
-              <p>
+              <p className="leading-7">
                 Effective collaboration and communication are essential for
                 driving teamwork, productivity, and innovation within
                 organizations. Our Collaboration and Communication Tools include

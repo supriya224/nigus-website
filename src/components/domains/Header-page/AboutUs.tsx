@@ -9,7 +9,7 @@ function About() {
           <h3 className="px-9 my-5 text-4xl text-gray-500 text-center font-extrabold">
             About us
           </h3>
-          <p className="leading-9 px-5 my-5 text-center text-xl  text-gray-400">
+          <p className="leading-7 px-5 my-5 text-center text-lg  text-gray-400">
             At Nigus Systems, we are passionate about leveraging cutting-edge
             technologies to create innovative solutions that drive business
             success. With a focus on excellence and customer satisfaction, our
@@ -28,10 +28,10 @@ function About() {
                   className="rounded-xl w-fit"
                 />
               </div>
-              <h3 className="text-xl font-medium  my-2">
+              <h3 className="text-xl  font-bold my-2">
                 Customer-Centric Solutions
               </h3>
-              <p className="leading-9 text-lg ">
+              <p className="leading-7 text-lg ">
                 {' '}
                 Experience an intuitive and user-friendly interface tailored to
                 meet the needs of your team. Our software prioritizes a seamless
@@ -48,10 +48,10 @@ function About() {
                 />
               </div>
 
-              <h3 className="text-xl  font-medium">
+              <h3 className="text-xl   font-bold">
                 Scalability and Flexibility
               </h3>
-              <p className="leading-8 text-lg">
+              <p className="leading-7 text-lg">
                 Grow your business without constraints. Our software solutions
                 offer scalability and flexibility, accommodating the evolving
                 demands of your organization. Scale up effortlessly as your
@@ -67,10 +67,8 @@ function About() {
                   className="rounded-xl"
                 />
               </div>
-              <h3 className="text-xl font-medium  my-2">
-                Innovative Technology
-              </h3>
-              <p className="leading-9 text-lg ">
+              <h3 className="text-xl font-bold my-2">Innovative Technology</h3>
+              <p className="leading-7 text-lg ">
                 {' '}
                 Embrace cutting-edge technology with our software solutions,
                 ensuring your business stays ahead in an ever-evolving digital
@@ -88,10 +86,8 @@ function About() {
                 />
               </div>
 
-              <h3 className="text-xl space-x-9 font-medium  my-2">
-                Support and Training
-              </h3>
-              <p className="leading-8 text-lg">
+              <h3 className="text-xl font-bold  my-2">Support and Training</h3>
+              <p className="leading-7 text-lg">
                 Benefit from a dedicated support team committed to your success.
                 Our software solutions come with personalized training options
                 and ongoing support, empowering your team to maximize the full
@@ -101,7 +97,7 @@ function About() {
           </div>
         </section>
       </section>
-      <section className="bg-blue-800 text-4xl flex justify-center w-full">
+      <section className="bg-blue-800 text-lg xl:text-4xl flex justify-center w-full">
         <div className="container mx-auto  py-12 text-center text-white font-extrabold w-2/3">
           Decade-plus of experience in India, the Middle East, and the Asia
           Pacific, delivering enterprise software and application solutions

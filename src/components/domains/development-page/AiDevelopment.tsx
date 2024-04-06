@@ -1,13 +1,13 @@
 function AiDevelopment() {
   return (
     <section>
-      <section className="container mx-auto w-auto my-3">
-        <div className="flex justify-between mt-12 w-full items-center">
-          <div className=" mr-32 w-1/2">
-            <h2 className="text-5xl font-extrabold">
+      <section className="container mx-auto w-auto font-customFont my-3 ">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 px-5 w-full items-center">
+          <div className="my-2">
+            <h2 className="text-2xl xl:text-5xl font-extrabold">
               Empowering Tomorrow with AI/ML Solutions.
             </h2>
-            <p className=" my-5 text-lg">
+            <p className=" my-5">
               Unlock the power of data with AI/ML development services tailored
               to your unique needs. From predictive analytics to natural
               language processing, we deliver intelligent solutions that drive
@@ -20,33 +20,31 @@ function AiDevelopment() {
               systems, and applications with cutting-edge expertise.
             </p>
           </div>
-          <div>
+          <div className="">
             <img
-              width={600}
-              height={100}
               src="http://www.nigussystems.com/images/realtime-calling.gif"
               alt=""
             />
           </div>
         </div>
-
         {/* next section */}
         <section>
-          <div className="flex justify-between mt-12 gap-9 w-full items-center">
+          <div className="px-5 w-full items-center py-2 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
             <div>
               <h2 className="text-xl font-extrabold my-3">
                 Fueled by Data, Driven by Intelligence
               </h2>
-              <img
-                width={600}
-                height={100}
-                src="http://www.nigussystems.com/images/managed-service.jpg"
-                alt=""
-              />
+              <div className="">
+                <img
+                  src="http://www.nigussystems.com/images/managed-service.jpg"
+                  alt=""
+                  className="w-fit"
+                />
+              </div>
             </div>
 
-            <div className=" mr-32 w-1/2">
-              <p className=" my-5 text-lg">
+            <div className="px-5">
+              <p className="my-2">
                 <span className="text-xl font-bold">AI-driven Solutions:</span>{' '}
                 We integrate AI capabilities into your existing systems,
                 applications, and workflows to automate repetitive tasks,

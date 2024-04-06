@@ -4,11 +4,11 @@ function Industries() {
   return (
     <section>
       <section className="container mx-auto w-auto ">
-        <div className="gap-9 mx-auto font-customFont">
+        <div className="xl:mt-5 mx-auto font-customFont">
           <div className="mb-3 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 ">
             <div className=" mx-8">
               <h2 className="text-2xl font-bold">Industries</h2>
-              <p className="leading-9 my-5 text-lg">
+              <p className="leading-7 my-5 text-lg">
                 At Nigus Systems, we are dedicated to developing cutting-edge
                 technology solutions that empower businesses across various
                 industries. Our team of experts specializes in software
@@ -17,7 +17,7 @@ function Industries() {
                 and data analytics to create customized solutions that drive
                 efficiency, productivity, and growth for our clients.
               </p>
-              <p className="leading-9 my-5 text-lg">
+              <p className="leading-7 my-5 text-lg">
                 {' '}
                 We provide a range of software solutions, applications, and
                 system integrations with business applications, offering

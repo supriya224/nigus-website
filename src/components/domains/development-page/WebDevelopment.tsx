@@ -10,7 +10,7 @@ function WebDevelopment() {
           <h2 className="text-3xl text-center md:text-left xl:text-5xl xl:text-left font-extrabold">
             Revolutionizing Enterprise with Innovative Solutions
           </h2>
-          <p className="leading-9 text-center  md:text-left xl:text-left my-5 text-lg">
+          <p className="leading-8 text-center md:text-left xl:text-left my-5 text-lg">
             Modernize the organization with innovative software solutions,
             applications and integrations
           </p>
@@ -21,6 +21,7 @@ function WebDevelopment() {
             height={100}
             src="http://www.nigussystems.com/images/integration-logos.gif"
             alt=""
+            loading="lazy"
           />
         </div>
       </div>
@@ -34,10 +35,10 @@ function WebDevelopment() {
       </div>
 
       <div className="mx-5">
-        <h3 className="text-4xl my-6 text-center font-bold">
+        <h3 className="text-3xl my-6 text-center font-bold">
           Innovative IT Solutions
         </h3>
-        <p className="text-xl">
+        <p className="text-lg">
           Utilize our software development expertise to seamlessly integrate
           business applications with new or existing systems, ensuring
           streamlined operations and enhanced efficiency.
@@ -126,7 +127,7 @@ function WebDevelopment() {
       <div className="mx-5 my-3">
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2  font-customFont">
           <div className="">
-            <h2 className="">
+            <p className="leading-8 text-lg">
               Our services are designed to help businesses establish a robust
               online presence in the digital age. We empower our clients to
               create impactful websites that effectively engage users and
@@ -134,8 +135,8 @@ function WebDevelopment() {
               a corporate website, or a web application, we leverage our
               creativity and technical expertise to develop responsive,
               user-friendly.
-            </h2>
-            <p className="leading-9 my-5">
+            </p>
+            <p className="leading-8 text-lg my-5">
               Web Development Application Development Software Development AI/ML
               Development System Integration
             </p>
