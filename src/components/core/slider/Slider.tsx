@@ -16,7 +16,7 @@ function Slider() {
   };
 
   return (
-    <div className="container mx-auto mt-10">
+    <div className="container mx-auto">
       <div className="relative">
         <img
           src={slides[currentSlide]}

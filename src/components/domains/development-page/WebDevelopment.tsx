@@ -3,7 +3,7 @@ import Slider from '../../core/slider/Slider';
 
 function WebDevelopment() {
   return (
-    <section className="container mx-auto w-auto font-customFont bg-cyan-800 sm:bg-red-500 md:bg-purple-900 lg:bg-yellow-400 xl:bg-blue-900 ">
+    <section className="container mx-auto w-auto my-5 font-customFont ">
       {/* front page is here */}
       <div className=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 md:text-left xl:text-left">
         <div className="md:mt-9 xl:mt-32">
@@ -27,7 +27,7 @@ function WebDevelopment() {
       {/* client slider page */}
 
       <div>
-        <h4 className="text-center text-3xl">Our clients</h4>
+        <h4 className="text-center text-3xl mt-9 font-bold">Our clients</h4>
         <div>
           <Slider />
         </div>
@@ -43,67 +43,89 @@ function WebDevelopment() {
           streamlined operations and enhanced efficiency.
         </p>
         <div className="flex flex-wrap justify-center gap-5 my-9">
-          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
-            <img src="http://www.nigussystems.com/images/apps.png" alt="" />
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+            <div className="flex justify-center">
+              <img
+                src="http://www.nigussystems.com/images/apps.png"
+                alt=""
+                className="rounded-xl w-32 "
+              />
+            </div>
+            <h3 className="text-center font-bold mt-2">Web Development</h3>
+          </div>
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+            <div className="flex justify-center">
+              <img
+                src="http://www.nigussystems.com/images/reliablity.png"
+                alt=""
+                className="rounded-xl w-32 "
+              />
+            </div>
+            <h3 className="text-center text-sm  font-bold mt-2">
+              Application Development
+            </h3>
+          </div>
 
-            <h3>Web Development</h3>
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+            <div className="flex justify-center">
+              <img
+                src="http://www.nigussystems.com/images/unified%20communications.png"
+                alt=""
+                className="rounded-xl w-32 "
+              />
+            </div>
+            <h3 className="text-center text-sm  font-bold mt-2">
+              Software Development
+            </h3>
           </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
-            <img
-              src="http://www.nigussystems.com/images/reliablity.png"
-              alt=""
-              className="flex justify-center"
-            />
-            <h3 className="">Application Development</h3>
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+            <div className="flex justify-center">
+              <img
+                src="http://www.nigussystems.com/images/application-integration.png"
+                alt=""
+                className="rounded-xl w-32 "
+              />
+            </div>
+            <h3 className="text-center  font-bold mt-2">AI/ML Development</h3>
           </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
-            <img
-              src="http://www.nigussystems.com/images/unified%20communications.png"
-              alt=""
-              className="flex justify-center"
-            />
-            <h3>Software Development</h3>
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+            <div className="flex justify-center">
+              <img
+                src="http://www.nigussystems.com/images/call-center-solutions.png"
+                alt=""
+                className="rounded-xl w-32 "
+              />
+            </div>
+            <h3 className="text-center  font-bold mt-2">System Integration</h3>
           </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
-            <img
-              src="http://www.nigussystems.com/images/application-integration.png"
-              alt=""
-              className="flex justify-center"
-            />
-            <h3>AI/ML Development</h3>
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+            <div className="flex justify-center">
+              <img
+                src="http://www.nigussystems.com/images/crm%20integration.png"
+                alt=""
+                className="rounded-xl w-32 "
+              />
+            </div>
+            <h3 className="text-center  font-bold mt-2">CRM Integration</h3>
           </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
-            {' '}
-            <img
-              src="http://www.nigussystems.com/images/call-center-solutions.png"
-              alt=""
-              className="flex justify-center"
-            />{' '}
-            <h3>System Integration</h3>
-          </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
-            {' '}
-            <img
-              src="http://www.nigussystems.com/images/crm%20integration.png"
-              alt=""
-              className="flex justify-center"
-            />
-            <h3>CRM Integration</h3>
-          </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl  w-fit h-fit px-16 py-16 ">
-            <img
-              src="http://www.nigussystems.com/images/web-conferencing.png"
-              alt=""
-              className="flex justify-center"
-            />
-            <h3>Application Integration</h3>
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+            <div className="flex justify-center">
+              <img
+                src="http://www.nigussystems.com/images/web-conferencing.png"
+                alt=""
+                className="rounded-xl w-32 "
+              />
+            </div>
+            <h3 className="text-center text-sm  font-bold mt-2">
+              Application Integration
+            </h3>
           </div>
         </div>
       </div>
       {/* last items */}
-      <div>
-        <div className="flex justify-between mt-5 w-full items-center font-customFont">
-          <div className="mt-5 mr-32 w-1/2">
+      <div className="mx-5 my-3">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2  font-customFont">
+          <div className="">
             <h2 className="">
               Our services are designed to help businesses establish a robust
               online presence in the digital age. We empower our clients to
@@ -118,12 +140,11 @@ function WebDevelopment() {
               Development System Integration
             </p>
           </div>
-          <div>
+          <div className="xl:px-28">
             <img
-              width={600}
-              height={100}
               src="http://www.nigussystems.com/images/business-conferencing.png"
               alt=""
+              className=""
             />
           </div>
         </div>
