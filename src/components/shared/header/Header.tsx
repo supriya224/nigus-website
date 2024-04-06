@@ -81,31 +81,6 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <section className="text-sm flex justify-between xl:gap-9">
-              <h3 className="mr-0.5 text-[12px] lg:text-base hidden lg:block">
-                sales@nigussystems.com
-              </h3>
-              <p className="ml-2 text-[12px] lg:text-base hidden lg:block">
-                +91 98806 98312
-              </p>
-
-              <div className="flex px-3 gap-2 lg:text-base xl:gap-4">
-                <button
-                  type="button"
-                  className="flex items-center text-white bg-cyan-600 md:flex"
-                >
-                  <CiUser />
-                  Sales
-                </button>
-                <button
-                  type="button"
-                  className="flex items-center text-white bg-cyan-600"
-                >
-                  <BsHeadset />
-                  Support
-                </button>
-              </div>
-            </section>
           </div>
 
           {/* sidebar mobile menu */}
