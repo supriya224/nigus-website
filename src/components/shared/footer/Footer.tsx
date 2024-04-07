@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { BiLogoLinkedin } from 'react-icons/bi';
+import Logo from '../../../assests/nigus-logo.png';
 
 function Footer() {
   return (
@@ -13,8 +14,9 @@ function Footer() {
                 className=""
                 width={120}
                 height={100}
-                src="http://www.nigussystems.com/images/nigus-logo.png"
+                src={Logo}
                 alt=""
+                loading="lazy"
               />
             </a>
             <h2 className="mt-2 text-lg  font-bold">

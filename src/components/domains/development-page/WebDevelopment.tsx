@@ -31,7 +31,7 @@ function WebDevelopment() {
 
       <div>
         <h4 className="text-center text-3xl mt-9 font-bold">Our clients</h4>
-        <div>
+        <div className="">
           <Slider />
         </div>
       </div>

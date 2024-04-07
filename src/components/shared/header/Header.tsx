@@ -6,8 +6,8 @@ import clsx from 'clsx';
 import { Link } from 'react-router-dom';
 import { CiUser } from 'react-icons/ci';
 import { BsHeadset } from 'react-icons/bs';
-// import Navbar from '../Navbar';
 import NavBar from './NavBar';
+import Logo from '../../../assests/nigus-logo.png';
 
 interface NavLink {
   label: string;
@@ -59,11 +59,12 @@ export default function Header() {
               />
               {/* logo */}
               <img
-                src="http://www.nigussystems.com/images/nigus-logo.png"
+                src={Logo}
                 alt=""
                 width={100}
                 height={100}
                 className="flex"
+                loading="lazy"
               />
             </section>
             {navlinks.map((link) => (
