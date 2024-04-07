@@ -1,3 +1,7 @@
+import analy from '../../../assests/analytics.png';
+import call from '../../../assests/call.png';
+import sett from '../../../assests/setting.png';
+
 function Analytics() {
   return (
     <section className="container mx-auto w-auto">
@@ -7,7 +11,7 @@ function Analytics() {
             <img
               width={150}
               height={100}
-              src="http://www.nigussystems.com/images/queue-statistics.png"
+              src={analy}
               alt=""
               loading="lazy"
               className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
@@ -28,7 +32,7 @@ function Analytics() {
             <img
               width={150}
               height={100}
-              src="http://www.nigussystems.com/images/call-features.png"
+              src={call}
               loading="lazy"
               alt=""
               className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
@@ -49,7 +53,7 @@ function Analytics() {
             <img
               width={150}
               height={100}
-              src="http://www.nigussystems.com/images/configure.png"
+              src={sett}
               loading="lazy"
               alt=""
               className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
