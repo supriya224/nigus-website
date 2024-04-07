@@ -16,7 +16,10 @@ function Contact() {
           <div className="leading-9 text-xl text-center">
             <div>
               <p className="flex justify-center">
-                <HiOutlineBuildingOffice size={50} className="text-blue-500" />
+                <HiOutlineBuildingOffice
+                  size={50}
+                  className="text-blue-500 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
+                />
               </p>
               <h3 className="text-xl font-extrabold mb-3 text-center">
                 Office locations
@@ -47,7 +50,7 @@ function Contact() {
             <p className="flex justify-center">
               <MdOutlineLocalPostOffice
                 size={50}
-                className="text-center text-blue-500"
+                className="text-center text-blue-500 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
               />
             </p>
             <h3 className="text-xl mb-3 font-extrabold text-center">
@@ -73,7 +76,10 @@ function Contact() {
           </div>
           <div className="text-center leading-9 font-bold">
             <p className="flex justify-center">
-              <FaHeadphones size={50} className="text-blue-600" />
+              <FaHeadphones
+                size={50}
+                className="text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
+              />
             </p>
             <h3 className="text-xl">Global Presence</h3>
 

@@ -52,7 +52,10 @@ function Solution() {
             <div className="my-3 sm:mx-12  ">
               <div className=" w-full  transform transition duration-500 hover:scale-110 rounded-xl shadow-xl shadow-gray-400  mx-auto p-16  text-center mb-9 sm:justify-center">
                 <span className="flex justify-center">
-                  <FaThumbsUp size={50} className="text-blue-600" />
+                  <FaThumbsUp
+                    size={50}
+                    className="text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
+                  />
                 </span>
                 <h3 className="font-bold text-lg">
                   {' '}
@@ -64,7 +67,10 @@ function Solution() {
               </div>
               <div className=" transform transition duration-500 hover:scale-110 mx-auto rounded-xl shadow-xl shadow-gray-400 p-12 text-center">
                 <span className="flex justify-center">
-                  <MdGroups size={80} className="text-blue-600" />
+                  <MdGroups
+                    size={80}
+                    className="text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
+                  />
                 </span>
                 <h3 className="font-bold text-lg">
                   Customer-Centric Approach and Personalized Solutions

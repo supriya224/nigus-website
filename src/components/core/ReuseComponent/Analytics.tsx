@@ -4,13 +4,14 @@ function Analytics() {
   return (
     <section className="container mx-auto w-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 my-9 px-5 text-center font-customFont">
-        <div className=" items-center">
+        <div className=" items-center transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
           <div className=" flex justify-center">
             <img
               width={150}
               height={100}
               src="http://www.nigussystems.com/images/queue-statistics.png"
               alt=""
+              className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
             />
           </div>
           <div>
@@ -23,13 +24,14 @@ function Analytics() {
           </div>
         </div>
 
-        <div className=" items-center">
+        <div className=" items-center transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
           <div className=" flex justify-center">
             <img
               width={150}
               height={100}
               src="http://www.nigussystems.com/images/call-features.png"
               alt=""
+              className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
             />
           </div>
           <div>
@@ -42,13 +44,14 @@ function Analytics() {
           </div>
         </div>
 
-        <div className=" items-center">
+        <div className=" items-center transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
           <div className=" flex justify-center">
             <img
               width={150}
               height={100}
               src="http://www.nigussystems.com/images/configure.png"
               alt=""
+              className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
             />
           </div>
           <div>

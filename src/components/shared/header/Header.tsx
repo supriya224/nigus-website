@@ -92,14 +92,14 @@ export default function Header() {
               <div className="hidden xl:flex lg:flex px-3 gap-2 lg:text-sm xl:gap-4">
                 <button
                   type="button"
-                  className="flex  px-3 items-center text-white bg-cyan-600 md:flex"
+                  className="flex transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-white duration-300  px-3 items-center text-white bg-cyan-600 md:flex"
                 >
                   <CiUser />
                   Sales
                 </button>
                 <button
                   type="button"
-                  className="flex mx-1 px-3 items-center text-white bg-cyan-600"
+                  className="flex transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-white duration-300 mx-1 px-3 items-center text-white bg-cyan-600"
                 >
                   <BsHeadset />
                   Support

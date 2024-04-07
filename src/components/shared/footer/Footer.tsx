@@ -10,7 +10,7 @@ function Footer() {
           <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
             <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
               <img
-                className="transform transition duration-500 hover:scale-110"
+                className=""
                 width={120}
                 height={100}
                 src="http://www.nigussystems.com/images/nigus-logo.png"
@@ -27,7 +27,7 @@ function Footer() {
               </p>
               <span className="bg-blue-400">
                 <BiLogoLinkedin
-                  className="bg-blue-900 text-white p-3 rounded-xl"
+                  className="bg-blue-900 text-white p-3 rounded-xl transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300"
                   size={40}
                 />
               </span>
