@@ -50,7 +50,7 @@ function Solution() {
           </h3>
           <div className="mx-5 gap-9  grid grid-cols-1 lg:grid-cols-2 ">
             <div className="my-3 sm:mx-12  ">
-              <div className=" w-full rounded-xl shadow-xl shadow-gray-400  mx-auto p-16  text-center mb-9 sm:justify-center">
+              <div className=" w-full  transform transition duration-500 hover:scale-110 rounded-xl shadow-xl shadow-gray-400  mx-auto p-16  text-center mb-9 sm:justify-center">
                 <span className="flex justify-center">
                   <FaThumbsUp size={50} className="text-blue-600" />
                 </span>
@@ -62,7 +62,7 @@ function Solution() {
                 successful projects, and a dedicated team, instilling confidence
                 through reliable and high-quality services.
               </div>
-              <div className=" b mx-auto rounded-xl shadow-xl shadow-gray-400 p-12 text-center">
+              <div className=" transform transition duration-500 hover:scale-110 mx-auto rounded-xl shadow-xl shadow-gray-400 p-12 text-center">
                 <span className="flex justify-center">
                   <MdGroups size={80} className="text-blue-600" />
                 </span>

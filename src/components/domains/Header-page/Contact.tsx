@@ -71,8 +71,6 @@ function Contact() {
             </ul>
           </p>
         </div>
-        {/*  &#10003;/}
-        {/* third section */}
         <div className="  text-center leading-9 font-bold">
           <p className="  flex justify-center">
             <FaHeadphones size={50} className="text-blue-600" />

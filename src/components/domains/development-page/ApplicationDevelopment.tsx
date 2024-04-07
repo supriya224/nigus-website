@@ -22,7 +22,7 @@ function ApplicationDevelopment() {
               your expectations.
             </p>
           </div>
-          <div className="lg:p-12 xl:p-12">
+          <div className="lg:p-12 xl:p-12  transform transition duration-500 hover:scale-110">
             <img
               height={100}
               src="http://www.nigussystems.com/images/customer-support-system.png"
@@ -36,7 +36,7 @@ function ApplicationDevelopment() {
           Empowering Innovation: Tailored Applications for a Dynamic Future
         </h3>
         <div className=" w-full px-5 mt-5 pb-4 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2">
-          <div className="flex justify-center items-center text-center">
+          <div className="flex justify-center items-center text-center  transform transition duration-500 hover:scale-110">
             <img
               width={200}
               height={100}

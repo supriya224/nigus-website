@@ -24,7 +24,7 @@ function SystemDevelopment() {
             <img
               src="http://www.nigussystems.com/images/complete-callcenter-solution.gif"
               alt=""
-              className="lg:px-5 xl:px-5"
+              className="lg:px-5 xl:px-5  transform transition duration-500 hover:scale-110"
             />
           </div>
         </div>

@@ -44,7 +44,7 @@ function WebDevelopment() {
           streamlined operations and enhanced efficiency.
         </p>
         <div className="flex flex-wrap justify-center gap-5 my-9">
-          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
               <img
                 src="http://www.nigussystems.com/images/apps.png"
@@ -54,7 +54,7 @@ function WebDevelopment() {
             </div>
             <h3 className="text-center font-bold mt-2">Web Development</h3>
           </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9  transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
               <img
                 src="http://www.nigussystems.com/images/reliablity.png"
@@ -67,7 +67,7 @@ function WebDevelopment() {
             </h3>
           </div>
 
-          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9  transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
               <img
                 src="http://www.nigussystems.com/images/unified%20communications.png"
@@ -79,7 +79,7 @@ function WebDevelopment() {
               Software Development
             </h3>
           </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9  transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
               <img
                 src="http://www.nigussystems.com/images/application-integration.png"
@@ -99,7 +99,7 @@ function WebDevelopment() {
             </div>
             <h3 className="text-center  font-bold mt-2">System Integration</h3>
           </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
               <img
                 src="http://www.nigussystems.com/images/crm%20integration.png"
@@ -109,7 +109,7 @@ function WebDevelopment() {
             </div>
             <h3 className="text-center  font-bold mt-2">CRM Integration</h3>
           </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9  transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
               <img
                 src="http://www.nigussystems.com/images/web-conferencing.png"
@@ -141,7 +141,7 @@ function WebDevelopment() {
               Development System Integration
             </p>
           </div>
-          <div className="xl:px-28">
+          <div className="xl:px-28  transform transition duration-500 hover:scale-110">
             <img
               src="http://www.nigussystems.com/images/business-conferencing.png"
               alt=""

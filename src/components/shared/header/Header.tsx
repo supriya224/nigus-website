@@ -47,7 +47,7 @@ export default function Header() {
   };
 
   return (
-    <main className=" ">
+    <main className="">
       <div className="container mx-auto w-auto">
         <nav className="flex justify-between px-1 items-center py-1">
           <div className="flex items-center gap-5">
@@ -70,7 +70,7 @@ export default function Header() {
               <Link
                 key={link.label}
                 className={clsx(
-                  'text-black font-bold hover:text-blue-500',
+                  'text-black lg:text-sm xl:text-base font-bold hover:text-blue-500',
                   activeButton === link.label &&
                     'text-blue-500 border-b border-blue-600 ',
                   'hidden lg:block xl:flex',
@@ -81,25 +81,25 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <section className="text-sm flex justify-between xl:gap-9">
-              <h3 className="mr-0.5 text-[12px] lg:text-base hidden lg:block">
+            <section className="text-xs flex justify-between xl:gap-9">
+              <h3 className="mr-0.5 hidden text-[12px] lg:text-sm  lg:block">
                 sales@nigussystems.com
               </h3>
-              <p className="ml-2 text-[12px] lg:text-base hidden lg:block">
+              <p className="ml-1 text-[8px] lg:text-sm hidden lg:block">
                 +91 98806 98312
               </p>
 
-              <div className="flex px-3 gap-2 lg:text-base xl:gap-4">
+              <div className="hidden xl:flex lg:flex px-3 gap-2 lg:text-sm xl:gap-4">
                 <button
                   type="button"
-                  className="flex items-center text-white bg-cyan-600 md:flex"
+                  className="flex  px-3 items-center text-white bg-cyan-600 md:flex"
                 >
                   <CiUser />
                   Sales
                 </button>
                 <button
                   type="button"
-                  className="flex items-center text-white bg-cyan-600"
+                  className="flex mx-1 px-3 items-center text-white bg-cyan-600"
                 >
                   <BsHeadset />
                   Support
@@ -150,7 +150,6 @@ export default function Header() {
                     Support
                   </button>
                 </div>
-                {/* <Navbar /> */}
               </section>
             </section>
           </div>
@@ -158,7 +157,6 @@ export default function Header() {
       </div>
       <div className="border-b" />
       <NavBar />
-      {/* <Navbar /> */}
     </main>
   );
 }

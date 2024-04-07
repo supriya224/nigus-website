@@ -20,7 +20,7 @@ function AiDevelopment() {
               systems, and applications with cutting-edge expertise.
             </p>
           </div>
-          <div className="">
+          <div className="  transform transition duration-500 hover:scale-110">
             <img
               src="http://www.nigussystems.com/images/realtime-calling.gif"
               alt=""
@@ -34,7 +34,7 @@ function AiDevelopment() {
               <h2 className="text-xl font-extrabold my-3">
                 Fueled by Data, Driven by Intelligence
               </h2>
-              <div className="">
+              <div className="  transform transition duration-500 hover:ease-out hover:scale-75">
                 <img
                   src="http://www.nigussystems.com/images/managed-service.jpg"
                   alt=""

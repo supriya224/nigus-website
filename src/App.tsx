@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable import/no-extraneous-dependencies */
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CONSTANT from './utils/constants/index';

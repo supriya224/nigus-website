@@ -48,19 +48,19 @@ export default function NavBar() {
     <main className=" ">
       <div className="container mx-auto w-auto">
         <nav className="flex justify-between px-1 items-center py-1">
-          <div className="flex items-center gap-5 relative">
-            <section className="flex items-center justify-end gap-2">
+          <div className="flex ml-32 lg:ml-12 xl:ml-24 lg:gap-6 xl:gap-12 items-center relative ">
+            <section className="">
               {/* menu */}
               <BsThreeDotsVertical
                 onClick={() => setMenu(true)}
-                className="text-3xl cursor-pointer absolute top-[-45px] right-[-350px]  lg:hidden"
+                className="text-3xl cursor-pointer absolute bottom-[10px] left-[200px] right-60  sm:left-[470px] md:left-[600px] lg:hidden"
               />
             </section>
             {navlinks.map((link) => (
               <Link
                 key={link.label}
                 className={clsx(
-                  'text-black font-bold hover:text-blue-500',
+                  'text-black  font-bold hover:text-blue-500',
                   activeButton === link.label &&
                     'text-blue-500 border-b border-blue-600 ',
                   'hidden lg:block xl:flex',
