@@ -24,14 +24,14 @@ function WebDevelopment() {
             applications and integrations
           </p>
         </div>
-        <div className="my-9">
+        <div className="mt-9">
           <ImageSlider />
         </div>
       </div>
       {/* client slider page */}
 
-      <div>
-        <h4 className="text-center text-3xl mt-9 font-bold">Our clients</h4>
+      <div className="py-5 mx-5">
+        <h4 className="text-center text-3xl  font-bold">Our clients</h4>
         <div className="">
           <Slider />
         </div>

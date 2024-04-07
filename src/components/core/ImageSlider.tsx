@@ -26,9 +26,9 @@ export function ImageSlider() {
   };
 
   return (
-    <div className="w-full relative" onMouseUp={handleMouseUp}>
+    <div className="w-full relative px-5" onMouseUp={handleMouseUp}>
       <div
-        className="relative w-full max-w-[500px] aspect-[70/45] m-auto overflow-hidden select-none"
+        className="relative w-full  max-w-[500px] aspect-[70/45] m-auto overflow-hidden select-none"
         onMouseMove={handleMove}
         onMouseDown={handleMouseDown}
       >

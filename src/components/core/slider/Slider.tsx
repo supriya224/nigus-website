@@ -26,14 +26,14 @@ const Slider: React.FC = () => {
         <img
           src={images[currentSlide]}
           alt={`Slide ${currentSlide + 1}`}
-          className="w-full h-auto rounded-md"
+          className="xl:w-full h-auto rounded-md"
           loading="lazy"
         />
-        <div className="absolute bottom-0 left-0 right-0 flex justify-center mb-4">
+        <div className="absolute top-5 sm:top-14 md:top-20 lg:top-28 xl:top-32  bottom-0 left-0 right-0 flex justify-center mb-4">
           {images.map((image, index) => (
             <div
               key={index}
-              className={`h-3 w-3 mx-2 cursor-pointer rounded-full ${
+              className={`h-3 w-3 mx-2 cursor-pointer rounded-full mt-9 ${
                 index === currentSlide ? 'bg-blue-500' : 'bg-gray-300'
               }`}
               onClick={() => handleSlideChange(index)}
