@@ -46,7 +46,7 @@ export default function NavBar() {
 
   return (
     <main className=" ">
-      <div className="container mx-auto w-auto">
+      <div className="container mx-auto w-auto ">
         <nav className="flex justify-between px-1 items-center py-1">
           <div className="flex ml-32 lg:ml-12 xl:ml-24 lg:gap-6 xl:gap-12 items-center relative ">
             <section className="">

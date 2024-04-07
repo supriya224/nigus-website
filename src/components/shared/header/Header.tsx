@@ -132,19 +132,19 @@ export default function Header() {
                 </Link>
               ))}
               <section className=" text-sm font-bold">
-                <div className=" ">
+                <div className="gap-3 ">
                   <h3 className=" ">sales@nigussystems.com</h3>
                   <p className="">+91 98806 98312</p>
                   <button
                     type="button"
-                    className="flex items-center text-white gap-2 bg-cyan-400"
+                    className="flex my-2 px-2 items-center text-white gap-2 bg-cyan-700"
                   >
                     <CiUser />
                     Sales
                   </button>
                   <button
                     type="button"
-                    className="flex items-center text-white gap-2 bg-cyan-400 text-sm"
+                    className="flex my-2 px-2  items-center text-white gap-2 bg-cyan-700 text-sm"
                   >
                     <BsHeadset />
                     Support
