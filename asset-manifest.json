@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ac93638.css",
-    "main.js": "/static/js/main.b2a72c13.js",
+    "main.css": "/static/css/main.38a551db.css",
+    "main.js": "/static/js/main.62afafa7.js",
     "static/js/787.bb9d8f1c.chunk.js": "/static/js/787.bb9d8f1c.chunk.js",
     "static/media/ai.gif": "/static/media/ai.310d4b88545de8f3f8be.gif",
     "static/media/system1.gif": "/static/media/system1.186c3923760e499eb6d3.gif",
     "static/media/system.gif": "/static/media/system.307f7e69e1c47c196526.gif",
     "static/media/web.gif": "/static/media/web.af0a7614c391a3674e52.gif",
     "static/media/ml.jpeg": "/static/media/ml.6165e4f39b7e8aea93c9.jpeg",
+    "static/media/slider3.png": "/static/media/slider3.ea2656bd2227a8f201b5.png",
     "static/media/application1.png": "/static/media/application1.859e7cf94f6bc4bfe5a0.png",
+    "static/media/slider1.png": "/static/media/slider1.07327ad26fdae58a73ac.png",
+    "static/media/slider2.png": "/static/media/slider2.a7c86ac969addfb2f347.png",
     "static/media/industries.png": "/static/media/industries.ff8187a1a100c4bfb735.png",
     "static/media/web1.png": "/static/media/web1.2383e6cf2c9f0402f8bf.png",
     "static/media/softApp.png": "/static/media/softApp.a3f5e33ab80222abd4b3.png",
@@ -22,14 +25,15 @@
     "static/media/software1.png": "/static/media/software1.db0a60fc2c0d200ca333.png",
     "static/media/application2.png": "/static/media/application2.0df85780c47539ede28a.png",
     "static/media/callApp.png": "/static/media/callApp.834f4c723cb8b04b880c.png",
+    "static/media/nigus-logo.png": "/static/media/nigus-logo.42d3af8ae216c4cb00de.png",
     "static/media/webApp.png": "/static/media/webApp.d5b7d11ff3c1bf839221.png",
     "index.html": "/index.html",
-    "main.9ac93638.css.map": "/static/css/main.9ac93638.css.map",
-    "main.b2a72c13.js.map": "/static/js/main.b2a72c13.js.map",
+    "main.38a551db.css.map": "/static/css/main.38a551db.css.map",
+    "main.62afafa7.js.map": "/static/js/main.62afafa7.js.map",
     "787.bb9d8f1c.chunk.js.map": "/static/js/787.bb9d8f1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ac93638.css",
-    "static/js/main.b2a72c13.js"
+    "static/css/main.38a551db.css",
+    "static/js/main.62afafa7.js"
   ]
 }
