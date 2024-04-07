@@ -1,4 +1,6 @@
 import { FaCheckCircle } from 'react-icons/fa';
+import application from '../../../assests/application2.png';
+import appli from '../../../assests/application1.png';
 
 function ApplicationDevelopment() {
   return (
@@ -23,12 +25,7 @@ function ApplicationDevelopment() {
             </p>
           </div>
           <div className="lg:p-12 xl:p-12  transform transition duration-500 hover:scale-110">
-            <img
-              height={100}
-              src="http://www.nigussystems.com/images/customer-support-system.png"
-              loading="lazy"
-              alt=""
-            />
+            <img height={100} src={appli} loading="lazy" alt="" />
           </div>
         </div>
       </section>
@@ -41,7 +38,7 @@ function ApplicationDevelopment() {
             <img
               width={200}
               height={100}
-              src="http://www.nigussystems.com/images/versatality-features.png"
+              src={application}
               loading="lazy"
               alt=""
             />

@@ -2,6 +2,8 @@ import React from 'react';
 import Analytics from '../../core/ReuseComponent/Analytics';
 import System from '../../core/ReuseComponent/System';
 import Collaboration from '../../core/ReuseComponent/Collaboration';
+import system from '../../../assests/system.gif';
+import slider from '../../../assests/system1.gif';
 
 function SystemDevelopment() {
   return (
@@ -22,7 +24,7 @@ function SystemDevelopment() {
           </div>
           <div className="">
             <img
-              src="http://www.nigussystems.com/images/complete-callcenter-solution.gif"
+              src={system}
               alt=""
               className="lg:px-5 xl:px-5  transform transition duration-500 hover:scale-110"
               loading="lazy"
@@ -30,11 +32,7 @@ function SystemDevelopment() {
           </div>
         </div>
         <div className="mx-5 my-5">
-          <img
-            src="http://www.nigussystems.com/images/slider.gif"
-            loading="lazy"
-            alt=""
-          />
+          <img src={slider} loading="lazy" alt="" />
         </div>
       </section>
       <System />

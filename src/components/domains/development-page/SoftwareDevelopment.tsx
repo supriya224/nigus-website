@@ -1,5 +1,7 @@
 import { FaCheckCircle } from 'react-icons/fa';
 import Software from '../../core/ReuseComponent/Software';
+import software from '../../../assests/system.gif';
+import about from '../../../assests/about3.png';
 
 function SoftwareDevelopment() {
   return (
@@ -22,7 +24,7 @@ function SoftwareDevelopment() {
             <img
               width={600}
               height={100}
-              src="http://www.nigussystems.com/images/complete-callcenter-solution.gif"
+              src={software}
               loading="lazy"
               alt=""
             />
@@ -33,13 +35,7 @@ function SoftwareDevelopment() {
       <section className="container mx-auto w-auto">
         <div className="px-5 mt-5 pb-4 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 items-center">
           <div className="flex justify-center items-center text-center">
-            <img
-              width={200}
-              height={100}
-              src="http://www.nigussystems.com/images/service-mobility.png"
-              loading="lazy"
-              alt=""
-            />
+            <img width={200} height={100} src={about} loading="lazy" alt="" />
           </div>
           <div className="">
             <p className="leading-2 my-5 text-lg">

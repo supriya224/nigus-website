@@ -1,20 +1,19 @@
+import system from '../../../assests/system2.png';
+
 function Collaboration() {
   return (
     <section>
-      <section className="container mx-auto w-auto font-customFont">
+      <section
+        className="container mx
+      -auto w-auto font-customFont"
+      >
         <h2 className="text-2xl my-3 px-5 font-semibold text-gray-500">
           Effortless Collaboration, Elevate with System Integrations
         </h2>
 
         <div className="w-full px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <div>
-            <img
-              width={600}
-              height={100}
-              src="http://www.nigussystems.com/images/crm-integration.png"
-              loading="lazy"
-              alt=""
-            />
+            <img width={600} height={100} src={system} loading="lazy" alt="" />
           </div>
           <div className=" ">
             <p className="">

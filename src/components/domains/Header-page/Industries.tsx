@@ -1,4 +1,5 @@
 import React from 'react';
+import Indus from '../../../assests/industries.png';
 
 function Industries() {
   return (
@@ -49,7 +50,7 @@ function Industries() {
             </div>
             <div className="">
               <img
-                src="http://www.nigussystems.com/images/importance-cust-relationship.png"
+                src={Indus}
                 alt=""
                 loading="lazy"
                 className="w-fit  mt-9 xl:px-28  transform transition duration-500 hover:scale-110 "

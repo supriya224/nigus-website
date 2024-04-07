@@ -1,4 +1,8 @@
 import React from 'react';
+import Soft from '../../../assests/software1.png';
+import about from '../../../assests/about3.png';
+import app from '../../../assests/appApp.png';
+import application from '../../../assests/application2.png';
 
 function About() {
   return (
@@ -23,7 +27,7 @@ function About() {
             <div className="mx-12 xl:mx-32 my-1 ">
               <div className="w-fit flex justify-center rounded-xl shadow-lg shadow-gray-400">
                 <img
-                  src="http://www.nigussystems.com/images/versatality-features.png"
+                  src={application}
                   alt=""
                   className="rounded-xl w-fit  transform transition duration-500 hover:scale-110"
                   loading="lazy"
@@ -43,7 +47,7 @@ function About() {
             <div className="mx-12 xl:mx-32 my-1 ">
               <div className="w-fit flex justify-center rounded-xl shadow-lg shadow-gray-400  my-2">
                 <img
-                  src="http://www.nigussystems.com/images/simple-conference-calls.png"
+                  src={Soft}
                   alt=""
                   loading="lazy"
                   className="rounded-xl w-full  transform transition duration-500 hover:scale-110"
@@ -64,7 +68,7 @@ function About() {
             <div className="mx-12 xl:mx-32 my-1 ">
               <div className="w-fit  flex justify-center rounded-xl shadow-lg shadow-gray-400">
                 <img
-                  src="http://www.nigussystems.com/images/service-mobility.png"
+                  src={about}
                   alt=""
                   loading="lazy"
                   className="rounded-xl  transform transition duration-500 hover:scale-110"
@@ -83,7 +87,7 @@ function About() {
             <div className="mx-12 xl:mx-32 my-1 ">
               <div className=" w-fit flex justify-center rounded-xl shadow-lg shadow-gray-900">
                 <img
-                  src="http://www.nigussystems.com/images/reliablity.png"
+                  src={app}
                   alt=""
                   loading="lazy"
                   className="rounded-xl  transform transition duration-500 hover:scale-110"

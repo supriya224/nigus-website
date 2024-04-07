@@ -1,3 +1,6 @@
+import ai from '../../../assests/ai.gif';
+import ml from '../../../assests/ml.jpeg';
+
 function AiDevelopment() {
   return (
     <section>
@@ -21,11 +24,7 @@ function AiDevelopment() {
             </p>
           </div>
           <div className="  transform transition duration-500 hover:scale-110">
-            <img
-              src="http://www.nigussystems.com/images/realtime-calling.gif"
-              loading="lazy"
-              alt=""
-            />
+            <img src={ai} loading="lazy" alt="" />
           </div>
         </div>
         {/* next section */}
@@ -36,12 +35,7 @@ function AiDevelopment() {
                 Fueled by Data, Driven by Intelligence
               </h2>
               <div className="  transform transition duration-500 hover:ease-out hover:scale-75">
-                <img
-                  src="http://www.nigussystems.com/images/managed-service.jpg"
-                  loading="lazy"
-                  alt=""
-                  className="w-fit"
-                />
+                <img src={ml} loading="lazy" alt="" className="w-fit" />
               </div>
             </div>
 

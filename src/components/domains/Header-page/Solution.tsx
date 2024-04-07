@@ -1,5 +1,6 @@
 import { FaThumbsUp } from 'react-icons/fa';
 import { MdGroups } from 'react-icons/md';
+import Solu from '../../../assests/solution.png';
 
 function Solution() {
   return (
@@ -11,12 +12,7 @@ function Solution() {
 
         <div className=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 ">
           <div className="flex justify-center sm:mx-9  md:mx-9 lg:justify-normal  xl:justify-normal ">
-            <img
-              src="http://www.nigussystems.com/images/client-interaction.png"
-              alt=""
-              className="w-fit h-fit"
-              loading="lazy"
-            />
+            <img src={Solu} alt="" className="w-fit h-fit" loading="lazy" />
           </div>
           <div className="mx-5">
             <p className="text-lg leading-8">
