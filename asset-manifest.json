@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.38a551db.css",
-    "main.js": "/static/js/main.62afafa7.js",
+    "main.css": "/static/css/main.5cafe8d9.css",
+    "main.js": "/static/js/main.f2ccd865.js",
     "static/js/787.bb9d8f1c.chunk.js": "/static/js/787.bb9d8f1c.chunk.js",
     "static/media/ai.gif": "/static/media/ai.310d4b88545de8f3f8be.gif",
     "static/media/system1.gif": "/static/media/system1.186c3923760e499eb6d3.gif",
@@ -28,12 +28,12 @@
     "static/media/nigus-logo.png": "/static/media/nigus-logo.42d3af8ae216c4cb00de.png",
     "static/media/webApp.png": "/static/media/webApp.d5b7d11ff3c1bf839221.png",
     "index.html": "/index.html",
-    "main.38a551db.css.map": "/static/css/main.38a551db.css.map",
-    "main.62afafa7.js.map": "/static/js/main.62afafa7.js.map",
+    "main.5cafe8d9.css.map": "/static/css/main.5cafe8d9.css.map",
+    "main.f2ccd865.js.map": "/static/js/main.f2ccd865.js.map",
     "787.bb9d8f1c.chunk.js.map": "/static/js/787.bb9d8f1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38a551db.css",
-    "static/js/main.62afafa7.js"
+    "static/css/main.5cafe8d9.css",
+    "static/js/main.f2ccd865.js"
   ]
 }
