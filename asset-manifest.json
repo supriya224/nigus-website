@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1fb35e17.css",
-    "main.js": "/static/js/main.ebadd716.js",
+    "main.js": "/static/js/main.f536b6a7.js",
     "static/js/787.bb9d8f1c.chunk.js": "/static/js/787.bb9d8f1c.chunk.js",
     "static/media/ai.gif": "/static/media/ai.310d4b88545de8f3f8be.gif",
     "static/media/system1.gif": "/static/media/system1.186c3923760e499eb6d3.gif",
@@ -20,20 +20,23 @@
     "static/media/crmApp.png": "/static/media/crmApp.4e5e04bba970d8482336.png",
     "static/media/about3.png": "/static/media/about3.baa8241bb5699b908c26.png",
     "static/media/aiApp.png": "/static/media/aiApp.825901cb08a076c1013c.png",
+    "static/media/setting.png": "/static/media/setting.edc458cb3d60f3e3b6e9.png",
     "static/media/appApp.png": "/static/media/appApp.4fbe7a5c7e5a4d01e785.png",
     "static/media/appliApp.png": "/static/media/appliApp.bdf5e395d51bf545abed.png",
     "static/media/software1.png": "/static/media/software1.db0a60fc2c0d200ca333.png",
     "static/media/application2.png": "/static/media/application2.0df85780c47539ede28a.png",
     "static/media/callApp.png": "/static/media/callApp.834f4c723cb8b04b880c.png",
+    "static/media/call.png": "/static/media/call.1a20bfb5331570cad636.png",
     "static/media/nigus-logo.png": "/static/media/nigus-logo.42d3af8ae216c4cb00de.png",
     "static/media/webApp.png": "/static/media/webApp.d5b7d11ff3c1bf839221.png",
+    "static/media/analytics.png": "/static/media/analytics.c258dd20221b11d7b582.png",
     "index.html": "/index.html",
     "main.1fb35e17.css.map": "/static/css/main.1fb35e17.css.map",
-    "main.ebadd716.js.map": "/static/js/main.ebadd716.js.map",
+    "main.f536b6a7.js.map": "/static/js/main.f536b6a7.js.map",
     "787.bb9d8f1c.chunk.js.map": "/static/js/787.bb9d8f1c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fb35e17.css",
-    "static/js/main.ebadd716.js"
+    "static/js/main.f536b6a7.js"
   ]
 }
