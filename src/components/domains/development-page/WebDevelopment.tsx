@@ -1,5 +1,5 @@
 import Slider from '../../core/slider/Slider';
-import Img from '../../../assests/web.gif';
+// import Img from '../../../assests/web.gif';
 import Web from '../../../assests/webApp.png';
 import App from '../../../assests/appApp.png';
 import Soft from '../../../assests/softApp.png';
@@ -8,6 +8,7 @@ import Call from '../../../assests/callApp.png';
 import CRM from '../../../assests/crmApp.png';
 import Appli from '../../../assests/appliApp.png';
 import WEB from '../../../assests/web1.png';
+import { ImageSlider } from '../../core/ImageSlider';
 
 function WebDevelopment() {
   return (
@@ -23,8 +24,8 @@ function WebDevelopment() {
             applications and integrations
           </p>
         </div>
-        <div className="px-5 md:mt-9">
-          <img width={600} height={100} src={Img} alt="" loading="lazy" />
+        <div className="my-9">
+          <ImageSlider />
         </div>
       </div>
       {/* client slider page */}
@@ -48,13 +49,23 @@ function WebDevelopment() {
         <div className="flex flex-wrap justify-center gap-5 my-9">
           <div className="shadow-lg shadow-gray-200 rounded-xl p-9 transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
-              <img src={Web} alt="" className="rounded-xl w-32 " />
+              <img
+                src={Web}
+                alt=""
+                className="rounded-xl w-32"
+                loading="lazy"
+              />
             </div>
             <h3 className="text-center font-bold mt-2">Web Development</h3>
           </div>
           <div className="shadow-lg shadow-gray-200 rounded-xl p-9  transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
-              <img src={App} alt="" className="rounded-xl w-32 " />
+              <img
+                src={App}
+                alt=""
+                className="rounded-xl w-32 "
+                loading="lazy"
+              />
             </div>
             <h3 className="text-center text-sm  font-bold mt-2">
               Application Development
@@ -63,7 +74,12 @@ function WebDevelopment() {
 
           <div className="shadow-lg shadow-gray-200 rounded-xl p-9  transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
-              <img src={Soft} alt="" className="rounded-xl w-32 " />
+              <img
+                src={Soft}
+                alt=""
+                className="rounded-xl w-32 "
+                loading="lazy"
+              />
             </div>
             <h3 className="text-center text-sm  font-bold mt-2">
               Software Development
@@ -71,25 +87,45 @@ function WebDevelopment() {
           </div>
           <div className="shadow-lg shadow-gray-200 rounded-xl p-9  transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
-              <img src={Ai} alt="" className="rounded-xl w-32 " />
+              <img
+                src={Ai}
+                alt=""
+                className="rounded-xl w-32 "
+                loading="lazy"
+              />
             </div>
             <h3 className="text-center  font-bold mt-2">AI/ML Development</h3>
           </div>
           <div className="shadow-lg shadow-gray-200 rounded-xl p-9 transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
-              <img src={Call} alt="" className="rounded-xl w-32 " />
+              <img
+                src={Call}
+                alt=""
+                className="rounded-xl w-32 "
+                loading="lazy"
+              />
             </div>
             <h3 className="text-center  font-bold mt-2">System Integration</h3>
           </div>
           <div className="shadow-lg shadow-gray-200 rounded-xl p-9 transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
-              <img src={CRM} alt="" className="rounded-xl w-32 " />
+              <img
+                src={CRM}
+                alt=""
+                className="rounded-xl w-32 "
+                loading="lazy"
+              />
             </div>
             <h3 className="text-center  font-bold mt-2">CRM Integration</h3>
           </div>
           <div className="shadow-lg shadow-gray-200 rounded-xl p-9  transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
-              <img src={Appli} alt="" className="rounded-xl w-32 " />
+              <img
+                src={Appli}
+                alt=""
+                className="rounded-xl w-32 "
+                loading="lazy"
+              />
             </div>
             <h3 className="text-center text-sm  font-bold mt-2">
               Application Integration
