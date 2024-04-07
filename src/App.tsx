@@ -44,12 +44,11 @@ function App() {
           animationData={about}
           style={{
             width: '50%',
-            marginLeft: '25rem',
             display: 'flex',
             justifyContent: 'center',
           }}
           download="lazy"
-          className="w-fit"
+          className="mx-[5rem] my-[15rem]  sm:mx-[10rem] sm:my-[10rem] md:mx-[10rem] md:my-[7rem] lg:mx-[15rem] lg:my-[5rem] xl:mx-[20rem] xl:my-[5rem]"
         />
       ) : (
         <BrowserRouter>
