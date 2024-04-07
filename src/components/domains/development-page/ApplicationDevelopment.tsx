@@ -26,6 +26,7 @@ function ApplicationDevelopment() {
             <img
               height={100}
               src="http://www.nigussystems.com/images/customer-support-system.png"
+              loading="lazy"
               alt=""
             />
           </div>
@@ -41,6 +42,7 @@ function ApplicationDevelopment() {
               width={200}
               height={100}
               src="http://www.nigussystems.com/images/versatality-features.png"
+              loading="lazy"
               alt=""
             />
           </div>

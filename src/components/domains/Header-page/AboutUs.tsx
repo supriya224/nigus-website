@@ -26,6 +26,7 @@ function About() {
                   src="http://www.nigussystems.com/images/versatality-features.png"
                   alt=""
                   className="rounded-xl w-fit  transform transition duration-500 hover:scale-110"
+                  loading="lazy"
                 />
               </div>
               <h3 className="text-xl  font-bold my-2">
@@ -44,6 +45,7 @@ function About() {
                 <img
                   src="http://www.nigussystems.com/images/simple-conference-calls.png"
                   alt=""
+                  loading="lazy"
                   className="rounded-xl w-full  transform transition duration-500 hover:scale-110"
                 />
               </div>
@@ -64,6 +66,7 @@ function About() {
                 <img
                   src="http://www.nigussystems.com/images/service-mobility.png"
                   alt=""
+                  loading="lazy"
                   className="rounded-xl  transform transition duration-500 hover:scale-110"
                 />
               </div>
@@ -82,6 +85,7 @@ function About() {
                 <img
                   src="http://www.nigussystems.com/images/reliablity.png"
                   alt=""
+                  loading="lazy"
                   className="rounded-xl  transform transition duration-500 hover:scale-110"
                 />
               </div>

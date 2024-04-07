@@ -15,6 +15,7 @@ function Solution() {
               src="http://www.nigussystems.com/images/client-interaction.png"
               alt=""
               className="w-fit h-fit"
+              loading="lazy"
             />
           </div>
           <div className="mx-5">

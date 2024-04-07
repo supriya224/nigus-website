@@ -23,6 +23,7 @@ function SoftwareDevelopment() {
               width={600}
               height={100}
               src="http://www.nigussystems.com/images/complete-callcenter-solution.gif"
+              loading="lazy"
               alt=""
             />
           </div>
@@ -36,6 +37,7 @@ function SoftwareDevelopment() {
               width={200}
               height={100}
               src="http://www.nigussystems.com/images/service-mobility.png"
+              loading="lazy"
               alt=""
             />
           </div>

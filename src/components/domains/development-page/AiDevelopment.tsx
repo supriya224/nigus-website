@@ -23,6 +23,7 @@ function AiDevelopment() {
           <div className="  transform transition duration-500 hover:scale-110">
             <img
               src="http://www.nigussystems.com/images/realtime-calling.gif"
+              loading="lazy"
               alt=""
             />
           </div>
@@ -37,6 +38,7 @@ function AiDevelopment() {
               <div className="  transform transition duration-500 hover:ease-out hover:scale-75">
                 <img
                   src="http://www.nigussystems.com/images/managed-service.jpg"
+                  loading="lazy"
                   alt=""
                   className="w-fit"
                 />

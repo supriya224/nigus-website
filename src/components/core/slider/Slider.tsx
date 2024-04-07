@@ -23,6 +23,7 @@ function Slider() {
           alt={`Slide ${currentSlide + 1}`}
           className=" rounded-md "
           width={1000}
+          loading="lazy"
         />
         <div className="absolute bottom-0 left-0 right-0 flex justify-center mb-4">
           {slides.map((slide, index) => (

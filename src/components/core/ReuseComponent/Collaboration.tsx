@@ -12,6 +12,7 @@ function Collaboration() {
               width={600}
               height={100}
               src="http://www.nigussystems.com/images/crm-integration.png"
+              loading="lazy"
               alt=""
             />
           </div>

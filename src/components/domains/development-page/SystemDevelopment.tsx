@@ -25,11 +25,16 @@ function SystemDevelopment() {
               src="http://www.nigussystems.com/images/complete-callcenter-solution.gif"
               alt=""
               className="lg:px-5 xl:px-5  transform transition duration-500 hover:scale-110"
+              loading="lazy"
             />
           </div>
         </div>
         <div className="mx-5 my-5">
-          <img src="http://www.nigussystems.com/images/slider.gif" alt="" />
+          <img
+            src="http://www.nigussystems.com/images/slider.gif"
+            loading="lazy"
+            alt=""
+          />
         </div>
       </section>
       <System />

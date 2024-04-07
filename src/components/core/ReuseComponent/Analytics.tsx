@@ -11,6 +11,7 @@ function Analytics() {
               height={100}
               src="http://www.nigussystems.com/images/queue-statistics.png"
               alt=""
+              loading="lazy"
               className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
             />
           </div>
@@ -30,6 +31,7 @@ function Analytics() {
               width={150}
               height={100}
               src="http://www.nigussystems.com/images/call-features.png"
+              loading="lazy"
               alt=""
               className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
             />
@@ -50,6 +52,7 @@ function Analytics() {
               width={150}
               height={100}
               src="http://www.nigussystems.com/images/configure.png"
+              loading="lazy"
               alt=""
               className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300"
             />

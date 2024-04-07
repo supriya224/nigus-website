@@ -51,6 +51,7 @@ function Industries() {
               <img
                 src="http://www.nigussystems.com/images/importance-cust-relationship.png"
                 alt=""
+                loading="lazy"
                 className="w-fit  mt-9 xl:px-28  transform transition duration-500 hover:scale-110 "
               />
             </div>
