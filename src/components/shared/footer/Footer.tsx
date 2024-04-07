@@ -10,18 +10,18 @@ function Footer() {
           <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
             <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
               <img
-                className=""
+                className="transform transition duration-500 hover:scale-110"
                 width={120}
                 height={100}
                 src="http://www.nigussystems.com/images/nigus-logo.png"
                 alt=""
               />
             </a>
-            <h2 className="mt-2 text-sm text-gray-500">
+            <h2 className="mt-2 text-lg  font-bold">
               Nigus Systems Private Limited
             </h2>
             <div>
-              <p>
+              <p className="text-lg">
                 We work across 24 x 7 to help you run your business without any
                 hassle.
               </p>
@@ -31,7 +31,9 @@ function Footer() {
                   size={40}
                 />
               </span>
-              <p>© 2024 Nigus Systems Pvt Ltd</p>
+              <p className="text-sm my-4 text-gray-500">
+                © 2024 Nigus Systems Pvt Ltd
+              </p>
             </div>
           </div>
         </div>

@@ -89,7 +89,7 @@ function WebDevelopment() {
             </div>
             <h3 className="text-center  font-bold mt-2">AI/ML Development</h3>
           </div>
-          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 ">
+          <div className="shadow-lg shadow-gray-200 rounded-xl p-9 transform transition duration-500 hover:scale-110 ">
             <div className="flex justify-center">
               <img
                 src="http://www.nigussystems.com/images/call-center-solutions.png"
