@@ -1,27 +1,49 @@
 # Nigus System Private Limited Website
 
-Welcome to the Nigus System Private Limited website repository! This website showcases our company's services, projects, and more. Built with React, TypeScript, and Tailwind CSS, it offers a modern and responsive user experience.
+A responsive corporate website built for Nigus System Private Limited, presenting company information, services, and projects through a modern web experience.
 
-## Deployed Website
+## Live Website
 
-The website is live and accessible at [https://nigus-website.vercel.app/](https://nigus-website.vercel.app/).
+https://nigus-website.vercel.app/
 
+## Tech Stack
 
-## Technologies Used
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- Swiper
+- Lottie React
+- Lucide / React Icons
 
-- **React**: A JavaScript library for building user interfaces.
-- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
-- **Tailwind CSS**: A utility-first CSS framework for building custom designs quickly.
+## Key Work
+
+- Responsive corporate website
+- Reusable UI sections and navigation
+- Project/service presentation
+- Responsive layouts for desktop and mobile
+- Motion and interaction details
+- Structured frontend components with TypeScript
 
 ## Getting Started
 
-To get a local copy of the project up and running, follow these steps:
+```bash
+git clone https://github.com/supriya224/nigus-website.git
+cd nigus-website
+npm install
+npm start
+```
 
-### Prerequisites
+## Build
 
-- Node.js installed on your local machine.
+```bash
+npm run build
+```
 
-### screenshot
-<img width="1440" alt="Screenshot 2024-04-07 at 5 31 59 PM" src="https://github.com/supriya224/nigus-website/assets/52038704/c4bf9828-9340-49f8-9894-5d870bee11c2">
+## Design Focus
 
+The project focuses on translating brand content into a clear information hierarchy, responsive layouts, and a polished visual system while keeping the frontend maintainable.
 
+## Author
+
+Supriya Maurya
